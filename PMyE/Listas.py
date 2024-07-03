@@ -13,11 +13,11 @@ class LinkedList:
     Clase que representa una lista enlazada simple.
     Proporciona métodos para insertar, eliminar y recorrer la lista.
     """
-    def __init__(self):
+    def __init__(self): 
         self.head = None
         self.tail = None
 
-    def insert_at_beginning(self, value):
+    def insert_at_beginning(self, value): 
         """
         Inserta un nuevo nodo al principio de la lista.
         """
